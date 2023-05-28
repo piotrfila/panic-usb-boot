@@ -1,0 +1,19 @@
+[package]
+authors = ["Piotr Fila <piotr.fila@tm1.edu.pl>"]
+categories = ["no-std"]
+description = "Set panicking behavior to reset to usb boot inteface"
+keywords = ["boot", "panic", "panic-handler", "picoboot", "rp2040", "usb"]
+license = "MIT OR Apache-2.0"
+name = "panic-usb-boot"
+repository = "todo!"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+
+[dependencies]
+rp2040-hal = "0.8.2"
+
+[features]
+default = ["picoboot", "usb_mass_storage"]
+picoboot = []
+usb_mass_storage = []
