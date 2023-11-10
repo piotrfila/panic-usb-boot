@@ -6,12 +6,12 @@ keywords = ["boot", "panic", "panic-handler", "picoboot", "usb"]
 license = "MIT OR Apache-2.0"
 name = "panic-usb-boot"
 repository = "https://github.com/piotrfila/panic-usb-boot"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 readme = "README.md"
 
 [dependencies]
-rp2040-hal = "0.8.2"
+rp2040-hal = "0.9.0"
 
 [features]
 default = ["picoboot", "usb_mass_storage"]
