@@ -1,6 +1,6 @@
 # panic-usb-boot
 
-Set the panicking behavior to reset to usb boot interface, based on `panic-halt` by @korken89. Only works on the rp2040 microcontroller.
+Set the panicking behavior to reset to usb boot interface, based on `panic-halt` by @korken89 and rom function lookup from `rp2040-hal`. Only works on the rp2040 microcontroller.
 
 [![](https://img.shields.io/crates/v/panic-usb-boot.svg)](https://crates.io/crates/panic-usb-boot)
 
